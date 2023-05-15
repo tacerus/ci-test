@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'registry.suse.com/bci/python:latest' } }
+    agent { docker { image 'registry.suse.com/bci/python:latest' label 'docker' } }
     stages {
         stage('build') {
             steps {
