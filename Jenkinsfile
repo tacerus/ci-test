@@ -9,6 +9,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python3 --version'
+                sh '$(hostname) && echo $(pwd) && ls -alR'
             }
         }
     }
