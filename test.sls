@@ -1,2 +1,2 @@
 file.managed:
-  - mode: 600
+  - mode: '0600'
